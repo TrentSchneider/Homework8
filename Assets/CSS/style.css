@@ -1,16 +1,34 @@
 body {
   font-family: "Heebo", sans-serif;
+  height: 100vh;
+  background-color: darkslategray;
 }
 .noBord {
   border: 0;
 }
+.noMarg {
+  margin: 0;
+}
 #title {
   text-align: center;
-}
-#navigation {
   background-color: lightgray;
 }
 #abtCrd {
   background-color: grey;
   margin-top: 15px;
+}
+
+@media screen and (min-width: 40em) {
+  #title {
+    margin-bottom: 8px;
+  }
+
+  #abtCrd {
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 64em) {
+  #menuBtn {
+    position: absolute;
+  }
 }
