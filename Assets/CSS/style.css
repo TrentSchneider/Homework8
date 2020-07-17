@@ -55,6 +55,9 @@ footer {
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  .img-fluid {
+    max-width: 50%;
+  }
 }
 /* large */
 @media (min-width: 992px) {
