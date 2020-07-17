@@ -30,6 +30,7 @@ footer {
 .projSquare {
   margin: 5px;
 }
+
 /* small */
 @media (min-width: 576px) {
   .homeBack {
