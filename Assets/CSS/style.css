@@ -30,6 +30,14 @@ footer {
 .projSquare {
   margin: 5px;
 }
+#homeBackground {
+  background-image: url("Backgrounds/HomeBackground.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: center;
+  background-color: none;
+}
 
 /* small */
 @media (min-width: 576px) {
