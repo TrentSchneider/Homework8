@@ -1,10 +1,12 @@
 body {
   height: 100vh;
-  background-color: darkslategray;
 }
-h1,
-h3,
-p {
+#navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.fonter {
   font-family: "Heebo", sans-serif;
 }
 .noBord {
@@ -13,30 +15,34 @@ p {
 .noMarg {
   margin: 0;
 }
-
+.TBBuffer {
+  margin-top: 110px;
+  margin-bottom: 35px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background-color: white;
+}
 /* small */
-@media screen and (max-width: 39.9375em) {
-  .contTitle {
-    text-align: center;
+@media (min-width: 576px) {
+  .homeback {
+    margin: 0;
   }
 }
 
 /* medium */
-@media screen and (min-width: 40em) {
-  #title {
-    margin-bottom: 8px;
+@media (min-width: 768px) {
+  .homeBack {
+    margin-left: 40px;
+    margin-right: 40px;
   }
-  .contTitle {
-    text-align: left;
-    padding-left: 50px;
-  }
-  #abtCrd {
-    margin-top: 15px;
+  .TBBuffer {
+    margin-top: 70px;
   }
 }
-/* medium */
-@media screen and (min-width: 64em) {
-  #menuBtn {
-    position: absolute;
-  }
+/* large */
+@media (min-width: 992px) {
 }
