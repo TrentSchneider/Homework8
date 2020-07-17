@@ -13,22 +13,7 @@ p {
 .noMarg {
   margin: 0;
 }
-#title {
-  text-align: center;
-}
-.lg {
-  background-color: lightgray;
-}
-#abtCrd {
-  background-color: grey;
-  margin-top: 15px;
-}
-.rounding {
-  border-radius: 10px;
-}
-.imgMarg {
-  margin: 10px;
-}
+
 /* small */
 @media screen and (max-width: 39.9375em) {
   .contTitle {
