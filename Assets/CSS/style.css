@@ -1,7 +1,11 @@
 body {
-  font-family: "Heebo", sans-serif;
   height: 100vh;
   background-color: darkslategray;
+}
+h1,
+h3,
+p {
+  font-family: "Heebo", sans-serif;
 }
 .noBord {
   border: 0;
@@ -22,16 +26,25 @@ body {
 .rounding {
   border-radius: 10px;
 }
-
+.imgMarg {
+  margin: 10px;
+}
 /* small */
+@media screen and (max-width: 39.9375em) {
+  .contTitle {
+    text-align: center;
+  }
+}
+
+/* medium */
 @media screen and (min-width: 40em) {
   #title {
     margin-bottom: 8px;
   }
   .contTitle {
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
   }
-
   #abtCrd {
     margin-top: 15px;
   }
@@ -40,8 +53,5 @@ body {
 @media screen and (min-width: 64em) {
   #menuBtn {
     position: absolute;
-  }
-  .contTitle {
-    padding-left: 20px;
   }
 }
