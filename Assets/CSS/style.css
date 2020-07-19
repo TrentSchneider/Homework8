@@ -45,6 +45,9 @@ footer {
   margin-top: auto;
   margin-bottom: auto;
 }
+.topBuff{
+  margin-top: 10px;
+}
 
 /* small */
 @media (min-width: 576px) {
@@ -69,9 +72,6 @@ footer {
   .cardCenter {
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-  .img-fluid {
-    max-width: 50%;
   }
   
 }
