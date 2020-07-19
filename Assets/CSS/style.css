@@ -33,8 +33,7 @@ footer {
 #homeBackground {
   background-image: url("Backgrounds/HomeBackground.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
+  background-size: contain;
   position: center;
   background-color: none;
 }
@@ -48,7 +47,7 @@ footer {
     margin-left: 0;
     margin-right: 0;
   }
-}
+ 
 
 /* medium */
 @media (min-width: 768px) {
@@ -66,7 +65,11 @@ footer {
   .img-fluid {
     max-width: 50%;
   }
+  
 }
 /* large */
 @media (min-width: 992px) {
+  #homeBackground {
+    background-size: cover;
+  }
 }
