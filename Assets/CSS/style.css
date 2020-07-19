@@ -37,15 +37,15 @@ footer {
   position: center;
   background-color: none;
 }
-.contIcon{
+.contIcon {
   width: 75px;
   height: auto;
 }
-#phone{
+#phone {
   margin-top: auto;
   margin-bottom: auto;
 }
-.topBuff{
+.topBuff {
   margin-top: 10px;
 }
 
@@ -58,7 +58,7 @@ footer {
     margin-left: 0;
     margin-right: 0;
   }
- 
+}
 
 /* medium */
 @media (min-width: 768px) {
@@ -73,7 +73,10 @@ footer {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  
+  .profPic {
+    width: 320px;
+    height: auto;
+  }
 }
 /* large */
 @media (min-width: 992px) {
