@@ -31,11 +31,19 @@ footer {
   margin: 5px;
 }
 #homeBackground {
-  background-image: url("Backgrounds/HomeBackground.jpg");
+  background-image: url("Images/HomeBackground.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   position: center;
   background-color: none;
+}
+.contIcon{
+  width: 75px;
+  height: auto;
+}
+#phone{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* small */
