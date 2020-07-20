@@ -16,6 +16,12 @@ body {
 .noMarg {
   margin: 0;
 }
+.noPad {
+  padding: 0;
+}
+.styleFont {
+  font-family: "Dancing Script", cursive;
+}
 .TBBuffer {
   margin-top: 110px;
   margin-bottom: 35px;
