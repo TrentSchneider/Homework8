@@ -54,6 +54,9 @@ footer {
 .topBuff {
   margin-top: 10px;
 }
+.cardBack {
+  background-color: rgb(243, 240, 240);
+}
 
 /* small */
 @media (min-width: 576px) {
