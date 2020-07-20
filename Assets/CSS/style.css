@@ -74,6 +74,10 @@ footer {
   .iconPosition {
     justify-content: center;
   }
+  .profPic {
+    width: 160px;
+    height: 160px;
+  }
 }
 
 /* medium */
