@@ -1,5 +1,6 @@
+html,
 body {
-  height: 100vh;
+  height: 100%;
 }
 #navBar {
   position: fixed;
@@ -89,6 +90,9 @@ footer {
 }
 /* large */
 @media (min-width: 992px) {
+}
+/* background */
+@media (min-width: 1430px) {
   #homeBackground {
     background-size: cover;
   }
