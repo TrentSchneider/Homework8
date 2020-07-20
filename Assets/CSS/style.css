@@ -68,6 +68,12 @@ footer {
     margin-left: 0;
     margin-right: 0;
   }
+  .aboutText {
+    margin-top: 0;
+  }
+  .iconPosition {
+    justify-content: center;
+  }
 }
 
 /* medium */
@@ -86,15 +92,21 @@ footer {
   }
   .profPic {
     width: 320px;
-    height: auto;
+    height: 320px;
+  }
+  .aboutText {
+    margin-top: 16px;
+  }
+  .iconPosition {
+    justify-content: flex-end;
   }
 }
 /* large */
 @media (min-width: 992px) {
-}
-/* background */
-@media (min-width: 1430px) {
   #homeBackground {
     background-size: cover;
   }
+}
+/* background */
+@media (min-width: 1430px) {
 }
