@@ -38,9 +38,9 @@ footer {
   margin: 5px;
 }
 #homeBackground {
-  background-image: url("Images/HomeBackground.jpg");
+  background-image: url("Images/mobileBackground.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: center;
   background-color: none;
 }
@@ -109,13 +109,13 @@ footer {
   .iconPosition {
     justify-content: flex-end;
   }
+  #homeBackground {
+    background-image: url("Images/HomeBackground.jpg");
+  }
 }
 /* large */
 @media (min-width: 992px) {
   #homeBackground {
     background-size: cover;
   }
-}
-/* background */
-@media (min-width: 1430px) {
 }
