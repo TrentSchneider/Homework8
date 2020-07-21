@@ -58,6 +58,13 @@ footer {
 .cardBack {
   background-color: rgb(243, 240, 240);
 }
+#profPic {
+  background-image: url("Images/Picture.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 160px;
+}
 
 /* small */
 @media (min-width: 576px) {
@@ -74,8 +81,7 @@ footer {
   .iconPosition {
     justify-content: center;
   }
-  .profPic {
-    width: 160px;
+  #profPic {
     height: 160px;
   }
 }
@@ -94,8 +100,7 @@ footer {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  .profPic {
-    width: 320px;
+  #profPic {
     height: 320px;
   }
   .aboutText {
