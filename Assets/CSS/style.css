@@ -1,5 +1,6 @@
+html,
 body {
-  height: 100vh;
+  height: 90%;
 }
 #navBar {
   position: fixed;
@@ -16,6 +17,12 @@ body {
 .noMarg {
   margin: 0;
 }
+.noPad {
+  padding: 0;
+}
+.styleFont {
+  font-family: "Dancing Script", cursive;
+}
 .TBBuffer {
   margin-top: 110px;
   margin-bottom: 35px;
@@ -31,12 +38,32 @@ footer {
   margin: 5px;
 }
 #homeBackground {
-  background-image: url("Backgrounds/HomeBackground.jpg");
+  background-image: url("Images/mobileBackground.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
+  background-size: cover;
   position: center;
   background-color: none;
+}
+.contIcon {
+  width: 75px;
+  height: auto;
+}
+#phone {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.topBuff {
+  margin-top: 10px;
+}
+.cardBack {
+  background-color: rgb(243, 240, 240);
+}
+#profPic {
+  background-image: url("Images/Picture.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 160px;
 }
 
 /* small */
@@ -48,6 +75,15 @@ footer {
     margin-left: 0;
     margin-right: 0;
   }
+  .aboutText {
+    margin-top: 0;
+  }
+  .iconPosition {
+    justify-content: center;
+  }
+  #profPic {
+    height: 160px;
+  }
 }
 
 /* medium */
@@ -58,15 +94,28 @@ footer {
   }
   .TBBuffer {
     margin-top: 70px;
+    margin-bottom: 35px;
   }
   .cardCenter {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  .img-fluid {
-    max-width: 50%;
+  #profPic {
+    height: 320px;
+  }
+  .aboutText {
+    margin-top: 16px;
+  }
+  .iconPosition {
+    justify-content: flex-end;
+  }
+  #homeBackground {
+    background-image: url("Images/HomeBackground.jpg");
   }
 }
 /* large */
 @media (min-width: 992px) {
+  #homeBackground {
+    background-size: cover;
+  }
 }

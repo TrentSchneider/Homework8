@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trenton Schneider</title>
+    <title>Trent Schneider | Home</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="Assets/CSS/style.css" />
   </head>
@@ -18,9 +22,9 @@
       class="d-flex flex-column flex-md-row align-items-center px-md-4 mb-3 bg-white"
     >
       <h2
-        class="my-0 mr-md-auto font-weight-normal py-3 px-4 col-12 col-md-auto titleFont navh2 text-center"
+        class="my-0 mr-md-auto font-weight-normal py-3 px-4 col-12 col-md-auto styleFont navh2 text-center"
       >
-        Trenton Schneider
+        Trent Schneider
       </h2>
       <nav class="my-2 my-md-0 mr-md-3">
         <a
@@ -49,32 +53,34 @@
         >
       </nav>
     </nav>
-    <section class="bg-secondary homeBack h-100 TBBuffer">
-      <section class="col-sm-12 col-md-11 bg-white cardCenter">
+    <section class="bg-white homeBack h-100 TBBuffer">
+      <section class="col-sm-12 bg-white cardCenter">
         <section class="card-body">
-          <h4
-            class="portTitle lowBorder titleFont contactCardHead font-weight-bold"
-          >
+          <h4 class="portTitle lowBorder contactCardHead font-weight-bold">
             Portfolio
           </h4>
           <!-- First Row -->
           <div class="container">
             <div class="row d-flex justify-content-around">
-              <div class="card projSquare column col-sm-12 col-md-5">
+              <div
+                class="card card-title projSquare column col-sm-12 col-md-3 cardBack"
+              >
                 <a href="https://trentschneider.github.io/CarVets/"
                   ><img
-                    class="float-left img-fluid"
-                    src=""
+                    class="float-left img-fluid topBuff"
+                    src="Assets/CSS/Images/CarVets.png"
                     alt="CarVets Screenshot"
                 /></a>
 
-                <div class="float-left">
-                  <h5>CarVets</h5>
-                  <p>
+                <div class="card-body noPad py-3">
+                  <p class="noMarg">
                     A site using google's maps javascript, maps place, and maps
                     URL APIs that locates car repair shops near the user's
                     current location.
                   </p>
+                  <a href="https://github.com/TrentSchneider/CarVets"
+                    >GitHub Repo</a
+                  >
                 </div>
               </div>
               <div class="card projSquare column col-sm-12 col-md-5">
@@ -96,37 +102,46 @@
             <!-- Second Row -->
             <div class="row d-flex justify-content-around">
               <div class="card projSquare column col-sm-12 col-md-5">
+              <div
+                class="card card-title projSquare column col-sm-12 col-md-3 cardBack"
+              >
                 <a href="https://trentschneider.github.io/WeatherDashboard/"
                   ><img
-                    class="float-left img-fluid"
-                    src=""
+                    class="float-left img-fluid topBuff"
+                    src="Assets/CSS/Images/Weather.png"
                     alt="Weather Dashboard Screenshot"
                 /></a>
 
-                <div class="float-left">
-                  <h5>Weather Dashboard</h5>
-                  <p>
+                <div class="card-body noPad py-3">
+                  <p class="noMarg">
                     A site using OpenWeatherMap API that shows the current and
                     five day weather for the user's current location or a
                     location that they search.
                   </p>
+                  <a href="https://github.com/TrentSchneider/WeatherDashboard"
+                    >GitHub Repo</a
+                  >
                 </div>
               </div>
-              <div class="card projSquare column col-sm-12 col-md-5">
+              <div
+                class="card title projSquare column col-sm-12 col-md-3 cardBack"
+              >
                 <a href="https://trentschneider.github.io/DailyPlanner/"
                   ><img
-                    class="float-left img-fluid"
-                    src=""
+                    class="float-left img-fluid topBuff"
+                    src="Assets/CSS/Images/Planner.png"
                     alt="Day Planner Screenshot"
                 /></a>
 
-                <div class="float-left">
-                  <h5>Day Planner</h5>
-                  <p>
+                <div class="card-body">
+                  <p class="noMarg">
                     A site using moment.js to create a dayplanner for the user.
                     The user's entries will be stored in their local storage for
                     future reference.
                   </p>
+                  <a href="https://github.com/TrentSchneider/DailyPlanner"
+                    >GitHub Repo</a
+                  >
                 </div>
               </div>
               <div class="card projSquare column col-sm-12 col-md-5">
